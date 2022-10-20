@@ -4,7 +4,12 @@
     {
         public static void Main(string[]args)
         {
-            Console.WriteLine("welcome to Stack And Queue problem");
+            Console.WriteLine("Pushing values to Stack");
+            LinkedListStack linkedListStack = new LinkedListStack();
+            linkedListStack.push(70);//1st in and last at stack
+            linkedListStack.push(30);
+            linkedListStack.push(56);//last in and on top of stack
+            linkedListStack.Display();
         }
     }
 }
