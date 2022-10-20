@@ -3,7 +3,8 @@
     public class Program
     {
         public static void Main(string[]args)
-        {
+        {   
+            //STACKS  //LIFO
             //Console.WriteLine("Pushing values to Stack");
             //LinkedListStack linkedListStack = new LinkedListStack();
             //linkedListStack.push(70);//1st in and last at stack
@@ -22,6 +23,12 @@
             linkedListQueues.Enqueue(56);//1ST in 1st out
             linkedListQueues.Enqueue(30);
             linkedListQueues.Enqueue(70);
+            linkedListQueues.Display();
+
+            Console.WriteLine("Dequeue Elements in Queue");
+            linkedListQueues.Dequeue(56);
+            linkedListQueues.Dequeue(36);
+            linkedListQueues.Dequeue(70);
             linkedListQueues.Display();
 
         }
